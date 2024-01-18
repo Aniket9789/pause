@@ -1,0 +1,101 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #db142e;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 25px;
+    height: 80px;
+    align-items: center;
+}
+
+.logo img {
+    height: 40%;
+}
+
+.search input {
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.icons {
+    text-align: right
+}
+
+.icons .fa {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 10px;
+    transition: 0.6s;
+}
+
+.fa:hover {
+    color: black;
+}
+
+
+
+.image { 
+    margin-top: 2rem;
+    display: flex;
+    /* gap: 9rem; */
+/* padding: 90 30px; */
+/* display: flex; */
+/* margin-right: auto; */
+
+/* } */
+/* .image1 {  */
+/* margin-top: 2rem; */
+/* display: flex; */
+/* gap: 9rem; */
+/* padding: 90 30px; */
+/* display: flex; */
+/* margin-right: auto; */
+
+/* } */
+
+.earcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    margin-left: 7rem;
+    outline-offset: -1rem;
+    
+
+}
+
+.earphone {
+    margin-top: 5rem;
+    /* width: 25%; */
+
+}
+
+.addbtn {
+    padding: 1rem;
+    margin-left: 6.5rem;
+    background-color: #ff9f00;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+.Addcontent {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
